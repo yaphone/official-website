@@ -6,11 +6,11 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide" v-for="(item,index) in swiperList" :key="index">
             <img class="swiper-lazy" :data-src="item.img" alt="轮播图">
-            <div class="swiper-lazy-preloader"></div>
+            <!-- <div class="swiper-lazy-preloader"></div>
             <div class="swiper-slide-title">
                 <h1>{{item.title}}</h1>
                 <p>{{item.content}}</p>
-            </div>
+            </div> -->
           </div>
         </div>
         <!-- 如果需要分页器 -->
@@ -21,21 +21,137 @@
         <div class="swiper-button-next"></div>
       </div>
     </div>
-    <!-- 大数据管理系统 -->
-    <div id="bigData" class="container-fuild">
+    
+    <div id="bigData" class="center-block">
+      <div style="text-align:center">
+        <h2>重点产品</h2>
+      </div>
       <div class="row bigData-container">
-        <div class="col-xs-12 col-sm-12 col-md-6 wow zoomIn">
-          <img class="img-responsive" src="@/assets/img/img1.png" alt="大数据管理系统">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-4">
+            <img class="img-responsive" src="@/assets/img/cloud2.png" alt="工业设计云">
+            <h2 class="bigData-title">
+              工业设计云
+              <small>/ Industrial Design Cloud</small>
+            </h2>
+            <p>当今最领先的响应式自助建站平台。无论您是普通互联网用户，还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。想创建一个简单的单页式站点，还是一个专业的公司网站，亦或是一个别具一格的博客？起飞页可以满足您的所有需求。</p>
+            <p>我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，还是专业网站制作人员。</p>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-4">
+            <img class="img-responsive" src="@/assets/img/AI_class.png" alt="工业设计云">
+            <h2 class="bigData-title">
+              智慧课堂
+              <small>/ Industrial Design Cloud</small>
+            </h2>
+            <p>当今最领先的响应式自助建站平台。无论您是普通互联网用户，还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。想创建一个简单的单页式站点，还是一个专业的公司网站，亦或是一个别具一格的博客？起飞页可以满足您的所有需求。</p>
+            <p>我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，还是专业网站制作人员。</p>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-4">
+            <img class="img-responsive" src="@/assets/img/AI_hosp.png" alt="工业设计云">
+            <h2 class="bigData-title">
+              大健康
+              <small>/ Industrial Design Cloud</small>
+            </h2>
+            <p>当今最领先的响应式自助建站平台。无论您是普通互联网用户，还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。想创建一个简单的单页式站点，还是一个专业的公司网站，亦或是一个别具一格的博客？起飞页可以满足您的所有需求。</p>
+            <p>我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，还是专业网站制作人员。</p>
+          </div>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6">
-          <h2 class="bigData-title">
-            大数据管理系统
-            <small>/ Big Data Management System</small>
-          </h2>
-          <p>当今最领先的响应式自助建站平台。无论您是普通互联网用户，还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。想创建一个简单的单页式站点，还是一个专业的公司网站，亦或是一个别具一格的博客？起飞页可以满足您的所有需求。</p>
-          <p>我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，还是专业网站制作人员。</p>
-          <h2 class="bigData-device">PC/PAD/Phone &nbsp; 全设备支持</h2>
-          <a href="#" class="btn btn-lg btn-block btn-info">联系我们</a>
+      </div>
+    </div>
+
+    <div class="service">
+      <div class="setr">
+        <div class="new_gaish_w">
+          <h2>解决方案</h2>
+          <p>基于人工智能帮助企业成功转型</p>
+        </div>
+        <div class="service-block">
+          <div class="col-md-3 jysf1">
+            <img src="./../assets/img/jysf1.png" class="img-responsive center-block" />
+            <p class="title2">云计算</p>
+            <p class="title3">凭借浪潮高端服务器、海量存储、云操作系统、信息安全技术为客户打造领先的云基础架构。</p>
+          </div>
+        </div>
+        <div class="service-block">
+          <div class="col-md-3 jysf1">
+            <img src="./../assets/img/gxnfl.png" class="img-responsive center-block" />
+            <p class="title2">高性能</p>
+            <p class="title3">浪潮高性能计算解决方案深入行业应用定制开发，使每套HPC系统与行业应用相得益彰，激发计算潜能。</p>
+          </div>
+        </div>
+        <div class="service-block">
+          <div class="col-md-3 jysf1">
+            <img src="./../assets/img/aq.png" class="img-responsive center-block" />
+            <p class="title2">安全</p>
+            <p class="title3">聚焦云数据中心的主机安全，包括操作系统安全、应用安全和数据安全，提供集硬件、操作系统、安全软件“三位一体”的主机安全方案。</p>
+          </div>
+        </div>
+        <div class="service-block">
+          <div class="col-md-3 jysf1">
+            <img src="./../assets/img/dsj.png" class="img-responsive center-block" />
+            <p class="title2">大数据</p>
+            <p class="title3">满足数据采集、存储、处理及应用开发大数据基础支撑平台，支撑海量数据规模。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="bigData" class="center-block">
+      <div style="text-align:center">
+        <h2>成功案例</h2>
+      </div>
+      <div class="row">
+        <div class="row" style="margin: 0 25px">
+          <div class="col-xs-12 col-sm-12 col-md-2">
+            <img class="img-responsive" src="@/assets/img/maidi.png" alt="迈迪网">
+            <h2 class="bigData-title">
+              迈迪网
+            </h2>
+            <p>当今最领先的响应式自助建站平台。无论您是普通互联网用户，还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。想创建一个简单的单页式站点，还是一个专业的公司网站，亦或是一个别具一格的博客？起飞页可以满足您的所有需求。</p>
+            <p>我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，还是专业网站制作人员。</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-2">
+            <img class="img-responsive" src="@/assets/img/nbdx.png" alt="宁波大学">
+            <h2 class="bigData-title">
+              宁波大学
+            </h2>
+            <p>当今最领先的响应式自助建站平台。无论您是普通互联网用户，还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。想创建一个简单的单页式站点，还是一个专业的公司网站，亦或是一个别具一格的博客？起飞页可以满足您的所有需求。</p>
+            <p>我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，还是专业网站制作人员。</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-2">
+            <img class="img-responsive" src="@/assets/img/tkzz.png" alt="太空智造">
+            <h2 class="bigData-title">
+              太空智造
+            </h2>
+            <p>当今最领先的响应式自助建站平台。无论您是普通互联网用户，还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。想创建一个简单的单页式站点，还是一个专业的公司网站，亦或是一个别具一格的博客？起飞页可以满足您的所有需求。</p>
+            <p>我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，还是专业网站制作人员。</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-2">
+            <img class="img-responsive" src="@/assets/img/maidi.png" alt="迈迪网">
+            <h2 class="bigData-title">
+              迈迪网
+            </h2>
+            <p>当今最领先的响应式自助建站平台。无论您是普通互联网用户，还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。想创建一个简单的单页式站点，还是一个专业的公司网站，亦或是一个别具一格的博客？起飞页可以满足您的所有需求。</p>
+            <p>我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，还是专业网站制作人员。</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-2">
+            <img class="img-responsive" src="@/assets/img/maidi.png" alt="迈迪网">
+            <h2 class="bigData-title">
+              迈迪网
+            </h2>
+            <p>当今最领先的响应式自助建站平台。无论您是普通互联网用户，还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。想创建一个简单的单页式站点，还是一个专业的公司网站，亦或是一个别具一格的博客？起飞页可以满足您的所有需求。</p>
+            <p>我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，还是专业网站制作人员。</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-2">
+            <img class="img-responsive" src="@/assets/img/maidi.png" alt="迈迪网">
+            <h2 class="bigData-title">
+              迈迪网
+            </h2>
+            <p>当今最领先的响应式自助建站平台。无论您是普通互联网用户，还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。想创建一个简单的单页式站点，还是一个专业的公司网站，亦或是一个别具一格的博客？起飞页可以满足您的所有需求。</p>
+            <p>我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，还是专业网站制作人员。</p>
+          </div>
+
         </div>
       </div>
     </div>
@@ -145,26 +261,8 @@ export default {
         {
           img: require("@/assets/img/banner1.png"),
           path: "",
-          title: '您身边的IT专家1',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
-        },
-        {
-          img: require("@/assets/img/banner2.jpg"),
-          path: "",
-          title: '您身边的IT专家2',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
-        },
-        {
-          img: require("@/assets/img/banner1.png"),
-          path: "",
-          title: '您身边的IT专家3',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
-        },
-        {
-          img: require("@/assets/img/banner2.jpg"),
-          path: "",
-          title: '您身边的IT专家4',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
+          title: '',
+          content: '',
         }
       ],
       customerList: [
@@ -379,9 +477,13 @@ export default {
 }
 /* 大数据管理系统 */
 #bigData {
-  padding: 100px;
+  padding: 10px;
   transition: all ease 0.6s;
   box-sizing: border-box;
+}
+.bigData-container {
+  max-width: 1200px;
+  margin:0 auto;
 }
 #bigData .bigData-title {
   padding-bottom: 10px;
@@ -625,5 +727,60 @@ export default {
     padding: 20px 0;
   }
 }
+
+.service {
+  min-height: 485px;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  background: #b4b5b3 url(../assets/img/solution.jpg) no-repeat center top;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 45px 0;
+}
+
+.setr {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.new_gaish_w {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.jjfaTit {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  display: block;
+}
+
+.service-block p {font-size: 14px;line-height: 22px;color: #fff;font-weight: 500;text-align: center;}
+.service-block img{max-width: 178px; text-align:center; vertical-align: middle; margin-bottom:20px;}
+
+.title1 {font-size: 28px !important}
+.title2 {font-size: 20px !important}
+.title3 {font-size: 16px !important;}
+
+.in_zdld {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.inzd_tab {
+  float: left;
+  width: 32%;
+  margin-right: 1%;
+  background: #f7f7f7;
+}
+
+
+.incp_ld{position: relative; text-align:center;}
+
 </style>
 
