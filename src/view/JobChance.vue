@@ -3,22 +3,47 @@
     <div class="banner container-fuild text-center">工作机会</div>
     <div class="container">
       <div class="JobChance-container wow pulse">
-        <h2>PHP工程师</h2>
+        <h2>JAVA软件工程师</h2>
         <p>岗位职责</p>
         <ol>
           <li>负责公司产品及项目系统的功能开发、代码优化；</li>
           <li>负责项目组人员任务的分配与监督，及时解决项目技术问题；</li>
-          <li>参与系统需求分析与设计，并负责完成PHP核心代码，接口规范制定，架构设计。</li>
+          <li>参与系统需求分析与设计，并负责完成项目核心代码，接口规范制定，架构设计。</li>
         </ol>
         <p>任职要求</p>
         <ol>
-          <li>精通PHP+MySql+Apache开发，精通使用JavaScript、AJAX、JQuery等技术；3年以上WEB应用程序开发经验， 有大型网站或电子商务网站工作经验者优先；</li>
-          <li>熟悉jQuery，具有AJAX、HTML、CSS、JAVASCRIPT等方面的开发经验；</li>
-          <li>熟悉PHP模板技术、框架技术及设计模式，有php框架系统进行开发经验者优先，如：phpcms，dedecms等；</li>
-          <li>精通数据库原理，精通MYSQL、了解Mongo等并有相关关系数据库设计开发经验, 了解Mysql的数据库配置管理、性能优化；</li>
-          <li>熟悉常见的数据结构和算法，具备良好的编程习惯及较强的文档编写能力；</li>
+          <li>本科及以上学历，计算机相关专业，2年以上工作经验；</li>
+          <li>具有丰富的系统分析与架构设计实践经验，熟悉高性能、高并发、高可用性、高扩展性系统架构设计，能够按照产品的发展对技术进行适当的演进；</li>
+          <li>精通JAVA；精通SSM等开源框架并熟悉其实现原理；有Spring Cloud经验优先。</li>
+          <li>熟悉MySQL、Redis、MongoDB、RabbitMQ等存储、缓存队列中间件并熟悉其架构搭建；熟悉eclipse，IDEA和GIT等开发工具。</li>
+          <li>熟悉Html/JavaScript/Css/Ajax基本的前端开发；</li>
+          <li>诚恳、踏实、稳重，具备良好的职业操守，具有良好的团队协作、沟通能力，责任心强。</li>
+          <li>有开源项目、个人博客者优先考虑。</li>
+        </ol>
+        <button class="center-block btn btn-warning btn-lg">投递简历</button>
+      </div>
+
+      <div class="JobChance-container wow pulse">
+        <h2>前端开发工程师</h2>
+        <p>岗位职责</p>
+        <ol>
+          <li>根据业务需求，负责应用程序的设计、开发工作，撰写相关技术文档；</li>
+          <li>承担公共前端框架、组件的设计、开发工作；</li>
+          <li>持续跟进应用质量，确保高品质产品的上线并及时响应和解决用户问题；</li>
+          <li>通过各种前端技术手段，提高用户体验并满足性能要求；</li>
+        </ol>
+        <p>任职要求</p>
+        <ol>
+          <li>本科以上学历，计算机软件或相关专业；</li>
+          <li>4年及以上前端开发经验；</li>
+          <li>精通HTML5/CSS3，熟悉页面架构和布局，对表现与数据分离，熟练使用less或sass进行前端开发；</li>
+          <li>精通JavaScript、Ajax、DOM等前端原生技术，掌握面向对象编程思想，熟悉前端模块化和组件封装；</li>
+          <li>熟悉Vue.或React等前端主流框架，熟练掌握Vue全家桶，有完整大型项目经验优先；</li>
           <li>熟悉各种WEB缓存技术,熟悉大型网站构架和性能优化；</li>
-          <li>对网站系统架构的部署、搭建、优化、排错等方面有丰富经验，对高负载、大访问量情况下的系统架构有经验者优先。</li>
+          <li>熟悉前端编译和构建工具，有webpack配置实战经验优先；</li>
+          <li>熟悉ECharts等图表库，有数据可视化项目经验优先；</li>
+          <li>对前端性能优化、安全知识浏览器差异等有深入了解和实践经验；</li>
+          <li>有强烈的上进心和求知欲，善于学习和实践，善于沟通和逻辑表达，有强烈的团队意识和执行力；</li>
         </ol>
         <button class="center-block btn btn-warning btn-lg">投递简历</button>
       </div>

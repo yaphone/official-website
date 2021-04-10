@@ -5,13 +5,9 @@
     <div class="header-top container-fuild hidden-xs">
       <div class="container">
         <div class="server pull-left">
-          <span class="glyphicon glyphicon-earphone"></span>888-888-888
-          <span class="glyphicon glyphicon-envelope"></span>liyunkun_11@163.com
+          <span class="glyphicon glyphicon-earphone"></span>0574-66882869
+          <span class="glyphicon glyphicon-envelope"></span>support@kaixinyuan.com
           <span class="glyphicon glyphicon-time"></span>7x24小时为您服务
-        </div>
-        <div class="shejiao pull-right">
-          <span class="glyphicon glyphicon-hand-right"></span>赶快联系我们吧！
-          <span class="glyphicon glyphicon-hand-left"></span>
         </div>
       </div>
     </div>
@@ -92,22 +88,29 @@ export default {
           path: "/",
           children: []
         },
+        // {
+        //   name: "产品",
+        //   path: "/product",
+        //   children: [
+        //     {
+        //         path: '/product/aiSoc',
+        //         name: 'NB系列芯片'
+        //     },
+        //     {
+        //         path: '/product/industryCloud',
+        //         name: '工业设计云'
+        //     },{
+        //         path: '/product/aiCell',
+        //         name: 'AI血片检测'
+        //     },
+        //     {
+        //         path: '/product/aiClass',
+        //         name: '智慧课堂'
+        //     }
+        //   ]
+        // },
         {
-          name: "软件产品",
-          path: "/software",
-          children: [
-            {
-              name: "智能小镇管理系统",
-              path: "/software/smartTown"
-            },
-            {
-              name: "大数据管理系统",
-              path: "/software/bigData"
-            }
-          ]
-        },
-        {
-          name: "相关服务",
+          name: "服务",
           path: "/service",
           children: []
         },
@@ -180,8 +183,6 @@ export default {
 }
 /* 导航栏logo图片 */
 #header .header-nav .header-nav-logo img {
-  width: 95px;
-  height: 45px;
   position: absolute;
   top: 0;
   left: 0;

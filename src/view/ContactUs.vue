@@ -55,7 +55,7 @@ export default {
   },
   mounted() {
     var map = new BMap.Map("map"); // 创建地图实例
-    var point = new BMap.Point(116.301841,40.156506); // 创建点坐标
+    var point = new BMap.Point(121.621267,29.874082); // 创建点坐标
     map.centerAndZoom(point, 18); // 初始化地图，设置中心点坐标和地图级别
     map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
     var marker = new BMap.Marker(point); // 创建标注
@@ -63,10 +63,10 @@ export default {
     var opts = {
       width: 50, // 信息窗口宽度
       height: 10, // 信息窗口高度
-      title: "黄元公寓" // 信息窗口标题
+      title: "开芯原（宁波）科技有限公司" // 信息窗口标题
     };
     var infoWindow = new BMap.InfoWindow(
-      "我的家",
+      "",
       opts
     ); // 创建信息窗口对象
     map.openInfoWindow(infoWindow, map.getCenter()); // 打开信息窗口
@@ -81,7 +81,7 @@ export default {
   font-size: 30px;
   height: 150px;
   line-height: 150px;
-  background-image: url("../assets/img/banner_1.jpg");
+  background-image: url("../assets/img/banner6.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;

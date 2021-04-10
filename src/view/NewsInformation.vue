@@ -12,7 +12,7 @@
             <ul class="news-container container-fuild">
                 <li v-for="(item,index) in newsList" :key="index" class="wow fadeIn">
                     <div class="content">
-                        <p>{{item.title}}</p>
+                        <h3>{{item.title}}</h3>
                         <p>{{item.introduce}}</p>
                     </div>
                     <div class="time">
@@ -40,40 +40,40 @@ export default {
             newsList:[
                 {
                     id: '001',
-                    title: '世界上第一个程序员',
-                    introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
-                    date: '05-24',
-                    year: '2019'
+                    title: '公司成立',
+                    introduce: '由艺科心研究院孵化的开芯原公司成立',
+                    date: '11-18',
+                    year: '2020'
                 },{
                     id: '002',
-                    title: '世界上第二个程序员',
-                    introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
-                    date: '05-24',
-                    year: '2019'
+                    title: 'NB1 芯片成功流片',
+                    introduce: '由开芯原自主研发、基于RISC-V的人工智能芯片成功流片',
+                    date: '11-24',
+                    year: '2020'
                 },{
                     id: '003',
-                    title: '世界上第三个程序员',
-                    introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
-                    date: '05-24',
-                    year: '2019'
+                    title: 'AI血片检测系统研发完成',
+                    introduce: '完全基于自研芯片、自研算法的人工智能细胞血片检测系统研发完成，开始在部分试点医院试运行',
+                    date: '12-31',
+                    year: '2020'
                 },{
                     id: '004',
-                    title: '世界上第四个程序员',
-                    introduce: '为计算程序拟定“算法”，写作的第四份“程序设计流程图”，被珍视为“第一位给计算机',
-                    date: '05-24',
-                    year: '2019'
+                    title: '工业设计云平台',
+                    introduce: '基于自研芯片的云平台上线，为工业设计提供强大的算力支持',
+                    date: '02-24',
+                    year: '2021'
                 },{
                     id: '005',
-                    title: '世界上第五个程序员',
-                    introduce: '为计算程序拟定“算法”，写作的第五份“程序设计流程图”，被珍视为“第一位给计算机',
-                    date: '05-24',
-                    year: '2019'
+                    title: '工业设计智慧课堂上线',
+                    introduce: '基于工业设计云平台的智慧课堂研发完成，并在宁波大学等多所高校部署使用',
+                    date: '03-01',
+                    year: '2021'
                 },{
                     id: '006',
-                    title: '世界上第六个程序员',
-                    introduce: '为计算程序拟定“算法”，写作的第五份“程序设计流程图”，被珍视为“第一位给计算机',
-                    date: '05-24',
-                    year: '2019'
+                    title: '未来',
+                    introduce: '开芯原将与您一起见证下一次工业革命',
+                    date: '12-31',
+                    year: '9999'
                 }
             ]
         }

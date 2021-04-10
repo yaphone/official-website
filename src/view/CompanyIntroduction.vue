@@ -1,10 +1,10 @@
 <template>
     <div id="CompanyIntroduction">
-        <div class="banner container-fuild text-center">关于我们</div>
+        <div class="banner container-fuild text-center">公司介绍</div>
         <div class="container">
             <div class="row CompanyIntroduction-container">
                 <div class="col-xs-12 col-sm-12 col-md-6 wow zoomIn">
-                    <img class="img-responsive center-block" src="@/assets/img/about_img.png">
+                    <img class="img-responsive center-block" src="@/assets/img/zzjg.png">
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6">
                     <h3>开芯原科技有限公司</h3>
@@ -13,9 +13,11 @@
                     <p class=".text-justify">2）开芯原提供了协同设计的平台，异地的设计师可以轻松的在平台上协同设计提高他们的工作质量与效率。</p>
                     <p class=".text-justify">3）所有的设计数据均保留存储于开芯原平台保证了数据的安全，而数据的共享进而提供了各地设计师们协同设计的基础。</p>
                     <p class=".text-justify">4）地方政府可以在开芯原平台上提供设计工具软件给当地高校与中小企业来共享资源。</p>
-                    <p class=".text-justify">5）开芯原的平台可以扶持国内自主研发的工业设计工具</p>
-                    
+                    <p class=".text-justify">5）开芯原的平台可以扶持国内自主研发的工业设计工具。</p>
                 </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 wow zoomIn">
+                <img class="img-responsive center-block" src="@/assets/img/hxyw.png">
             </div>
         </div>
     </div>
@@ -41,7 +43,7 @@ export default {
     font-size: 30px;
     height: 150px;
     line-height: 150px;
-    background-image: url('../assets/img/banner1.png');
+    background-image: url('../assets/img/banner5.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;

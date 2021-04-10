@@ -23,31 +23,47 @@ export default new Router({
             title: '首页'
           }
         }, {
-          path: '/software',
-          name: 'software',
-          component: resolve => require(['@/view/Software'], resolve),
+          path: '/product',
+          name: 'product',
+          component: resolve => require(['@/view/Product'], resolve),
           meta: {
-            title: '软件产品'
+            title: '产品'
           },
           children: [
             {
-              path: '/software',
-              redirect: '/software/smartTown'
+              path: '/product',
+              redirect: '/product/aiSoc'
             },
             {
-              path: '/software/smartTown',
-              name: 'software',
-              component: resolve => require(['@/view/Software_smartTown'], resolve),
+              path: '/product/aiSoc',
+              name: 'product',
+              component: resolve => require(['@/view/AiSoc'], resolve),
               meta: {
-                title: '软件产品丨智能小镇管理系统'
+                title: '产品丨芯片研发'
               }
             },
             {
-              path: '/software/bigData',
-              name: 'software',
-              component: resolve => require(['@/view/Software_bigData'], resolve),
+              path: '/product/industryCloud',
+              name: 'product',
+              component: resolve => require(['@/view/IndustryCloud'], resolve),
               meta: {
-                title: '软件产品丨大数据管理系统'
+                title: '产品丨工业设计云'
+              }
+            },
+            {
+              path: '/product/AiCell',
+              name: 'product',
+              component: resolve => require(['@/view/AiCell'], resolve),
+              meta: {
+                title: '产品丨AI血片检测'
+              },
+            },
+            {
+              path: '/product/AiClass',
+              name: 'product',
+              component: resolve => require(['@/view/AiClass'], resolve),
+              meta: {
+                title: '产品丨智慧课堂'
               }
             }
           ]
@@ -56,7 +72,7 @@ export default new Router({
           name: 'service',
           component: resolve => require(['@/view/Service'], resolve),
           meta: {
-            title: '相关服务'
+            title: '服务'
           }
         }, {
           path: '/newsinformation',
@@ -92,7 +108,7 @@ export default new Router({
           name: 'servicedetail',
           component: resolve => require(['@/view/ServiceDetail'],resolve),
           meta: {
-            title: '相关服务'
+            title: '服务'
           }
         }
       ]
